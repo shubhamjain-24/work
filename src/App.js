@@ -1,5 +1,5 @@
 import React from 'react'
-import './app.css'
+import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Work from './components/Work/Work'
 import Stripes from './components/Stripe/Stripes'
