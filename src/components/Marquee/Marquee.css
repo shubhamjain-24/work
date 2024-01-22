@@ -1,0 +1,33 @@
+/* .marquee_mainContainer{
+    display: flex;
+    width: 100%;
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+    gap: 5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.marquee_mainContainer {
+    display: flex;
+    overflow: hidden;
+    overflow-x: hidden;
+    animation: marqueeAnimation 20s linear infinite;
+  }
+  
+  @keyframes marqueeAnimation {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .marquee_mainContainer img {
+    width: 8rem;
+    flex-shrink: 0;
+    margin-right: 1rem;
+  } */
+  

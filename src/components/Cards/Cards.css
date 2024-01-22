@@ -1,0 +1,13 @@
+.Cards_mainContainer{
+    width: 100%;
+    
+}
+.Cards_subContnainer{
+    max-width: 1240px;
+    margin: auto;
+    /* background-color: aliceblue; */
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    gap: 10px;
+}
