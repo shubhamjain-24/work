@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="nav_subContainer">
         <img className="nav_logo" src={img1} alt="" srcset="" />
         <div className="link_container">
-          {["Home", "Work", "Culture", "", "News"].map((elem, index) =>
+          {["Home", "Work", "Experience", "", "Skills"].map((elem, index) =>
             elem.length === 0 ? (
               <span
                 style={{

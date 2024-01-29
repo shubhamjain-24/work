@@ -19,6 +19,8 @@
     color: black;
 }
 .btn_icon{
-    background-color: white;
+    /* background-color: red; */
     color: black !important;
+    font-size: 20px;
+    margin-top: -3px;
 }

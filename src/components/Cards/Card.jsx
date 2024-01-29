@@ -19,7 +19,9 @@ const Card = ({ width, start, para, hover }) => {
     background: isHovered ? hover : "none",
     transition: "background 0.5s",
   };
-
+  const handleContactButtonClick = () => {
+    window.location.href = "mailto:shubhamjain244122@gmail.com";
+  };
   return (
     <>
       <div
@@ -30,23 +32,23 @@ const Card = ({ width, start, para, hover }) => {
       >
         <div className="card_subContainer">
           <div className="card_upperDiv">
-            <p className="card_p">One Heading</p>
+            <p className="card_p">Let's work together</p>
             <IoIosArrowRoundForward />
           </div>
-          <h2 className="card_head">Who we are.</h2>
+          <h2 className="card_head">Who I Am.</h2>
         </div>
         <div className="card_lowerDiv">
           {start && (
             <>
               <h1 className="main_head">Start a Project</h1>
-              <div className="card_button">Contact Us</div>
+              <div onClick={handleContactButtonClick} className="card_button">Contact Me</div>
             </>
           )}
 
           {para && (
             <>
               <p className="card_lowerText">
-                Lorem ipsum dolor sit amet consectetur
+                Let's start working together by hiring me.
               </p>
             </>
           )}

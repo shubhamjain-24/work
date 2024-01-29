@@ -39,6 +39,14 @@
     padding: 0.5rem 0.75rem;
     font-size: 10px;
     margin-top: 15px;
+    cursor: pointer;
+    transition: all ease-in-out 0.4s;
+}
+.card_button:hover{
+    color: black;
+    border-color: black;
+    font-weight: bold;
+    
 }
 .card_lowerText{
     font-size: 10px;

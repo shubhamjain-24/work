@@ -28,6 +28,19 @@ const Product = ({ val }) => {
 
     setShiftX(newShiftX);
     setShiftY(newShiftY);
+
+    
+  };
+  // links
+  const handleVisitButtonClick = () => {
+    if (val.live) {
+      window.location.href = val.link; 
+    }
+  };
+  const handleVisitButtonClick2 = () => {
+    if (val.case) {
+      window.location.href = val.git; 
+    }
   };
   return (
     <>
@@ -57,8 +70,10 @@ const Product = ({ val }) => {
           <div className="product_details">
             <p style={{ marginBottom: "30px" }}>{val.description}</p>
             <div className="product_buttonContainer">
-              {val.live && <Button title="Visit" />}
-              {val.case && <Button title="Case Study" />}
+            {val.live && (
+                <Button title="Visit" onClick={handleVisitButtonClick} />
+              )}
+              {val.case && <Button title="Git Repo" onClick={handleVisitButtonClick2} />}
             </div>
           </div>
         </div>
