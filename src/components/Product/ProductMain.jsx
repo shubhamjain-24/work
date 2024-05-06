@@ -6,7 +6,7 @@ import img2 from '../../Images/vervex.png'
 import img3 from '../../Images/bbc.gif'
 import img4 from '../../Images/loan.gif'
 import img5 from '../../Images/shipup.png'
-
+import img6 from '../../Images/Tantukosh.png'
 const ProductMain = () => {
   var Products = [
     {
@@ -16,7 +16,8 @@ const ProductMain = () => {
       live: true,
       case: false,
       background:"skyblue",
-      image:img1,  link: "https://www.visaforshiksha.com/"
+      image:img1,  
+      link: "https://www.visaforshiksha.com/"
     },
     {
       title: "VERVEX",
@@ -37,6 +38,16 @@ const ProductMain = () => {
       image:img3,
       background:"#d0851c",
       link:"https://www.beyondbharatconsultancy.com/"
+    },
+    {
+      title: "Tantukosh",
+      description:
+        "Crafted with precision and passion, Tantukosh embodies elegance in every stitch. Our clothing brand's essence is mirrored in its website, meticulously designed in Figma and brought to life with React JS.",
+      live: true,
+      case: false,
+      image:img6,
+      background:"	#76944c",
+      link:"https://shubham-project-rust.vercel.app/",
     },
     {
       title: "Snap Funds",
